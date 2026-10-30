@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1460" viewBox="0 0 1800 1460" role="img" aria-labelledby="title desc">
+  <title id="title">SkillMatch Earned Value Analysis tables</title>
+  <desc id="desc">Work Breakdown Structure and Earned Value table, followed by EVA project status summary. All figures are illustrative assumptions.</desc>
+  <defs>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; }
+      .title { font-size: 36px; font-weight: 700; fill: #17324d; }
+      .subtitle { font-size: 19px; fill: #526579; }
+      .section { font-size: 24px; font-weight: 700; fill: #17324d; }
+      .head { font-size: 17px; font-weight: 700; fill: #ffffff; }
+      .cell { font-size: 17px; fill: #243548; }
+      .num { font-size: 17px; fill: #243548; text-anchor: end; }
+      .total { font-size: 18px; font-weight: 700; fill: #17324d; }
+      .note { font-size: 15px; fill: #637386; }
+      .status { font-size: 17px; fill: #243548; }
+      .statusnum { font-size: 17px; font-weight: 700; fill: #17324d; }
+      .rowline { stroke: #dbe3ea; stroke-width: 1; }
+    </style>
+  </defs>
+  <rect width="1800" height="1460" fill="#f4f7fa"/>
+  <rect x="50" y="40" width="1700" height="1380" rx="22" fill="#ffffff" stroke="#dce5ed" stroke-width="2"/>
+
+  <text class="title" x="90" y="105">SkillMatch Project — Earned Value Analysis</text>
+  <text class="subtitle" x="90" y="145">Illustrative report · Status date: end of week 10 · Planned duration: 21 weeks · Budget at completion (BAC): ₹12,00,000</text>
+
+  <text class="section" x="90" y="205">1. Work Breakdown Structure and Earned Value</text>
+  <rect x="85" y="225" width="1630" height="52" rx="8" fill="#173f5f"/>
+  <text class="head" x="105" y="257">Work package</text>
+  <text class="head" x="725" y="257" text-anchor="end">Budget</text>
+  <text class="head" x="940" y="247" text-anchor="end">Planned %</text>
+  <text class="head" x="940" y="266" text-anchor="end">complete</text>
+  <text class="head" x="1140" y="247" text-anchor="end">Actual %</text>
+  <text class="head" x="1140" y="266" text-anchor="end">complete</text>
+  <text class="head" x="1415" y="257" text-anchor="end">PV</text>
+  <text class="head" x="1685" y="257" text-anchor="end">EV</text>
+
+  <g>
+    <rect x="85" y="277" width="1630" height="39" fill="#f1f6fa"/>
+    <text class="cell" x="105" y="303">Project initiation</text><text class="num" x="725" y="303">₹36,000</text><text class="num" x="940" y="303">100%</text><text class="num" x="1140" y="303">100%</text><text class="num" x="1415" y="303">₹36,000</text><text class="num" x="1685" y="303">₹36,000</text>
+    <line class="rowline" x1="85" y1="316" x2="1715" y2="316"/>
+    <text class="cell" x="105" y="342">Requirements gathering</text><text class="num" x="725" y="342">₹96,000</text><text class="num" x="940" y="342">100%</text><text class="num" x="1140" y="342">100%</text><text class="num" x="1415" y="342">₹96,000</text><text class="num" x="1685" y="342">₹96,000</text>
+    <rect x="85" y="355" width="1630" height="39" fill="#f1f6fa"/>
+    <text class="cell" x="105" y="381">System design and planning</text><text class="num" x="725" y="381">₹96,000</text><text class="num" x="940" y="381">100%</text><text class="num" x="1140" y="381">100%</text><text class="num" x="1415" y="381">₹96,000</text><text class="num" x="1685" y="381">₹96,000</text>
+    <line class="rowline" x1="85" y1="394" x2="1715" y2="394"/>
+    <text class="cell" x="105" y="420">Database and data model</text><text class="num" x="725" y="420">₹1,20,000</text><text class="num" x="940" y="420">100%</text><text class="num" x="1140" y="420">100%</text><text class="num" x="1415" y="420">₹1,20,000</text><text class="num" x="1685" y="420">₹1,20,000</text>
+    <rect x="85" y="433" width="1630" height="39" fill="#f1f6fa"/>
+    <text class="cell" x="105" y="459">Backend API development</text><text class="num" x="725" y="459">₹2,40,000</text><text class="num" x="940" y="459">75%</text><text class="num" x="1140" y="459">65%</text><text class="num" x="1415" y="459">₹1,80,000</text><text class="num" x="1685" y="459">₹1,56,000</text>
+    <line class="rowline" x1="85" y1="472" x2="1715" y2="472"/>
+    <text class="cell" x="105" y="498">Recommendation engine</text><text class="num" x="725" y="498">₹1,44,000</text><text class="num" x="940" y="498">100%</text><text class="num" x="1140" y="498">100%</text><text class="num" x="1415" y="498">₹1,44,000</text><text class="num" x="1685" y="498">₹1,44,000</text>
+    <rect x="85" y="511" width="1630" height="39" fill="#f1f6fa"/>
+    <text class="cell" x="105" y="537">Frontend development</text><text class="num" x="725" y="537">₹1,80,000</text><text class="num" x="940" y="537">100%</text><text class="num" x="1140" y="537">90%</text><text class="num" x="1415" y="537">₹1,80,000</text><text class="num" x="1685" y="537">₹1,62,000</text>
+    <line class="rowline" x1="85" y1="550" x2="1715" y2="550"/>
+    <text class="cell" x="105" y="576">Authentication and security</text><text class="num" x="725" y="576">₹72,000</text><text class="num" x="940" y="576">0%</text><text class="num" x="1140" y="576">0%</text><text class="num" x="1415" y="576">₹0</text><text class="num" x="1685" y="576">₹0</text>
+    <rect x="85" y="589" width="1630" height="39" fill="#f1f6fa"/>
+    <text class="cell" x="105" y="615">Frontend/backend integration</text><text class="num" x="725" y="615">₹60,000</text><text class="num" x="940" y="615">0%</text><text class="num" x="1140" y="615">0%</text><text class="num" x="1415" y="615">₹0</text><text class="num" x="1685" y="615">₹0</text>
+    <line class="rowline" x1="85" y1="628" x2="1715" y2="628"/>
+    <text class="cell" x="105" y="654">Testing and quality assurance</text><text class="num" x="725" y="654">₹96,000</text><text class="num" x="940" y="654">0%</text><text class="num" x="1140" y="654">0%</text><text class="num" x="1415" y="654">₹0</text><text class="num" x="1685" y="654">₹0</text>
+    <rect x="85" y="667" width="1630" height="39" fill="#f1f6fa"/>
+    <text class="cell" x="105" y="693">Documentation and training</text><text class="num" x="725" y="693">₹24,000</text><text class="num" x="940" y="693">0%</text><text class="num" x="1140" y="693">0%</text><text class="num" x="1415" y="693">₹0</text><text class="num" x="1685" y="693">₹0</text>
+    <line class="rowline" x1="85" y1="706" x2="1715" y2="706"/>
+    <text class="cell" x="105" y="732">Deployment</text><text class="num" x="725" y="732">₹24,000</text><text class="num" x="940" y="732">0%</text><text class="num" x="1140" y="732">0%</text><text class="num" x="1415" y="732">₹0</text><text class="num" x="1685" y="732">₹0</text>
+    <rect x="85" y="745" width="1630" height="39" fill="#f1f6fa"/>
+    <text class="cell" x="105" y="771">Project review and closeout</text><text class="num" x="725" y="771">₹12,000</text><text class="num" x="940" y="771">0%</text><text class="num" x="1140" y="771">0%</text><text class="num" x="1415" y="771">₹0</text><text class="num" x="1685" y="771">₹0</text>
+    <rect x="85" y="784" width="1630" height="46" rx="0" fill="#e6eff5"/>
+    <text class="total" x="105" y="814">TOTAL</text><text class="total" x="725" y="814" text-anchor="end">₹12,00,000</text><text class="total" x="1415" y="814" text-anchor="end">₹8,52,000</text><text class="total" x="1685" y="814" text-anchor="end">₹8,10,000</text>
+  </g>
+  <text class="note" x="95" y="854">Actual Cost (AC) at end of week 10: ₹8,90,000. PV = budgeted value planned by status date; EV = budgeted value of completed work.</text>
+
+  <text class="section" x="90" y="920">2. Earned Value Analysis — Status Summary</text>
+  <rect x="85" y="943" width="1630" height="50" rx="8" fill="#173f5f"/>
+  <text class="head" x="110" y="975">Measure</text>
+  <text class="head" x="510" y="975">Value</text>
+  <text class="head" x="850" y="975">Interpretation</text>
+
+  <g>
+    <rect x="85" y="993" width="1630" height="43" fill="#f1f6fa"/>
+    <text class="status" x="110" y="1021">Planned Value (PV)</text><text class="statusnum" x="510" y="1021">₹8,52,000</text><text class="status" x="850" y="1021">Budgeted value of work planned by week 10</text>
+    <line class="rowline" x1="85" y1="1036" x2="1715" y2="1036"/>
+    <text class="status" x="110" y="1064">Earned Value (EV)</text><text class="statusnum" x="510" y="1064">₹8,10,000</text><text class="status" x="850" y="1064">Budgeted value of work actually completed</text>
+    <rect x="85" y="1079" width="1630" height="43" fill="#f1f6fa"/>
+    <text class="status" x="110" y="1107">Actual Cost (AC)</text><text class="statusnum" x="510" y="1107">₹8,90,000</text><text class="status" x="850" y="1107">Actual spending to date</text>
+    <line class="rowline" x1="85" y1="1122" x2="1715" y2="1122"/>
+    <text class="status" x="110" y="1150">Schedule Variance (SV = EV − PV)</text><text class="statusnum" x="510" y="1150">−₹42,000</text><text class="status" x="850" y="1150">Behind schedule</text>
+    <rect x="85" y="1165" width="1630" height="43" fill="#f1f6fa"/>
+    <text class="status" x="110" y="1193">Cost Variance (CV = EV − AC)</text><text class="statusnum" x="510" y="1193">−₹80,000</text><text class="status" x="850" y="1193">Over budget</text>
+    <line class="rowline" x1="85" y1="1208" x2="1715" y2="1208"/>
+    <text class="status" x="110" y="1236">Schedule Performance Index (SPI)</text><text class="statusnum" x="510" y="1236">0.95</text><text class="status" x="850" y="1236">Schedule performance below plan</text>
+    <rect x="85" y="1251" width="1630" height="43" fill="#f1f6fa"/>
+    <text class="status" x="110" y="1279">Cost Performance Index (CPI)</text><text class="statusnum" x="510" y="1279">0.91</text><text class="status" x="850" y="1279">Cost performance below plan</text>
+    <line class="rowline" x1="85" y1="1294" x2="1715" y2="1294"/>
+    <text class="status" x="110" y="1322">Estimate at Completion (EAC)</text><text class="statusnum" x="510" y="1322">₹13,18,519</text><text class="status" x="850" y="1322">Forecast total cost if current CPI continues</text>
+  </g>
+  <text class="note" x="90" y="1378">Illustrative assumptions only — update the progress percentages and actual cost with your project’s real figures.</text>
+</svg>

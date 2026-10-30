@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Northstar Labs",
+    "industry": "Technology",
+    "location": "Bengaluru",
+    "size": "201-500",
+    "description": "Build thoughtful data products for teams changing how people work.",
+    "jobs": [
+      {"title": "Machine Learning Engineer", "experience_min": 2, "experience_max": 6, "education": "Bachelor's", "salary_min": 1200000, "salary_max": 2200000, "work_mode": "Hybrid", "skills": ["Python", "Machine Learning", "SQL", "TensorFlow", "Docker", "AWS"]},
+      {"title": "Data Analyst", "experience_min": 0, "experience_max": 3, "education": "Bachelor's", "salary_min": 700000, "salary_max": 1200000, "work_mode": "Remote", "skills": ["Python", "SQL", "Tableau", "Statistics", "Pandas"]}
+    ]
+  },
+  {
+    "name": "Orbit Fintech",
+    "industry": "Finance",
+    "location": "Mumbai",
+    "size": "501-1000",
+    "description": "Making everyday financial services simpler, safer, and more inclusive.",
+    "jobs": [
+      {"title": "Backend Engineer", "experience_min": 2, "experience_max": 5, "education": "Bachelor's", "salary_min": 1400000, "salary_max": 2400000, "work_mode": "On-site", "skills": ["Java", "Spring Boot", "SQL", "Docker", "AWS", "REST APIs"]},
+      {"title": "Product Data Analyst", "experience_min": 1, "experience_max": 4, "education": "Bachelor's", "salary_min": 900000, "salary_max": 1600000, "work_mode": "Hybrid", "skills": ["SQL", "Python", "Excel", "Power BI", "Statistics"]}
+    ]
+  },
+  {
+    "name": "Canopy Health",
+    "industry": "Healthcare",
+    "location": "Hyderabad",
+    "size": "51-200",
+    "description": "A care technology company focused on making better health outcomes accessible.",
+    "jobs": [
+      {"title": "Data Scientist", "experience_min": 1, "experience_max": 4, "education": "Master's", "salary_min": 1100000, "salary_max": 1900000, "work_mode": "Remote", "skills": ["Python", "Machine Learning", "Pandas", "SQL", "Scikit-learn", "NLP"]}
+    ]
+  },
+  {
+    "name": "Pixel & Pine",
+    "industry": "E-commerce",
+    "location": "Pune",
+    "size": "201-500",
+    "description": "A growing commerce studio connecting independent brands with modern customers.",
+    "jobs": [
+      {"title": "Frontend Developer", "experience_min": 1, "experience_max": 4, "education": "Bachelor's", "salary_min": 850000, "salary_max": 1500000, "work_mode": "Hybrid", "skills": ["JavaScript", "React", "TypeScript", "HTML", "CSS", "Accessibility"]}
+    ]
+  },
+  {
+    "name": "GreenGrid Energy",
+    "industry": "Energy",
+    "location": "Delhi",
+    "size": "51-200",
+    "description": "Modernizing energy infrastructure through smart, sustainable software.",
+    "jobs": [
+      {"title": "Cloud Engineer", "experience_min": 2, "experience_max": 5, "education": "Bachelor's", "salary_min": 1300000, "salary_max": 2100000, "work_mode": "On-site", "skills": ["AWS", "Docker", "Kubernetes", "Terraform", "Python", "Linux"]}
+    ]
+  }
+]
